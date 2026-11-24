@@ -183,16 +183,12 @@ http://185.121.1.163:8083/MuzhskoeKino/index.m3u8
 https://fs.uplink.kz/muzhskoe_kino/mono.m3u8?token=onlinetv2
 #EXTINF:-1 group-title="🎬 Film",Киноxит
 https://flussonic.mkpnet.ru/tv-513b9c22f4277475/video.m3u8
-#EXTINF:-1 group-title="🎬 Film",Киноxит
-https://stream8.cinerama.uz/1055/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="🎬 Film",Kinomiks
 https://stream8.cinerama.uz/1233/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="🎬 Film",КИНОПОКАЗ
 https://stream8.cinerama.uz/1057/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="🎬 Film",Кинопремьера
 http://185.121.1.163:8083/Kinopremyera/index.m3u8
-#EXTINF:-1 group-title="🎬 Film",Кинопремьера 2
-https://stream8.cinerama.uz/1207/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="🎬 Film",Киносвидание
 https://stream8.cinerama.uz/1203/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="🎬 Film",viju+ Megahit HD (1080p)
