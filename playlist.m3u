@@ -159,7 +159,8 @@ https://catcast.ismailturret.workers.dev/fanatikprimeEdStafford.m3u8
 
 # ⭐ ƏSAS
 #EXTINF:-1 tvg-id="ntv" group-title="⭐ Əsas",РЕН ТВ
-http://185.32.44.154/rentv/tracks-v1a1/index.m3u8
+#EXTGRP:Россия
+http://185.46.16.239:8000/REN_TV
 #EXTINF:-1 tvg-id="ntv" tvg-logo="https://iptvx.one/picons/ntv.png" group-title="⭐ Əsas",НТВ HD
 http://cdn2.ntv.ru/ntv0_hd/playlist.m3u8
 #EXTINF:-1 tvg-id="ntv-style" tvg-logo="https://iptvx.one/picons/ntv-style.png" group-title="⭐ Əsas",НТВ Стиль
@@ -209,7 +210,7 @@ https://flussonic.mkpnet.ru/tv-e107d21a90cb808f/video.m3u8
 #EXTINF:-1 group-title="🎬 Film",viju TV1000 Action
 https://flussonic.mkpnet.ru/tv-0991ea2ac6292de8/video.m3u8
 #EXTINF:-1 group-title="🎬 Film",Киноужас
-https://fs.uplink.kz/kinouzhas/mono.m3u8?token=onlinetv
+https://fs.uplink.kz/kinouzhas/mono.m3u8?token=onlinetv2
 #EXTINF:-1 group-title="🎬 Film",КИНОКОМЕДИЯ
 https://stream8.cinerama.uz/1232/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="🎬 Film",КИНОСЕРИЯ
@@ -225,11 +226,11 @@ https://stream8.cinerama.uz/1227/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="🎬 Film",Viasat Epic Drama
 http://195.189.60.253/118/index.m3u8
 #EXTINF:-1 group-title="🎬 Film",Dom kino Premium HD (1080p)
-http://stream.mcquack.net/108/index.m3u8
+https://fs.uplink.kz/dom_kino_premium/mono.m3u8?token=onlinetv2
 #EXTINF:-1 group-title="🎬 Film",Film UA Drama
 http://88.99.215.227/FilmUADrama/index.m3u8
 #EXTINF:-1 group-title="🎬 Film",Мосфильм. Золотая коллекция
-http://stream.mcquack.net/369/index.m3u8
+http://185.76.10.53:8080/srv5/mosfilm/tracks-v1a1/mono.m3u8?cid=144&did=5366158&m=1&rid=24397&token=2022b6576a65c40ede42a7d4941b5471
 #EXTINF:-1 group-title="🎬 Film",Кино 1 International [Not 24/7]
 http://kino-1.catcast.tv/content/38617/index.m3u8
 #EXTINF:-1 tvg-id="Discovery" group-title="🎬 Film",KinoKazka
@@ -237,9 +238,9 @@ http://stream.mcquack.net/167/index.m3u8
 #EXTINF:-1 tvg-id="Discovery" group-title="🎬 Film",Fox
 http://stream.mcquack.net/182/index.m3u8
 #EXTINF:-1 tvg-id="Discovery" group-title="🎬 Film",Fox Life
-http://stream.mcquack.net/129/index.m3u8
+https://live.uspeh.my/8052/video.m3u8?token=EHFHvNjTwqcqsiKN
 #EXTINF:-1 tvg-id="Discovery" group-title="🎬 Film",Hollywood
-http://stream.mcquack.net/268/index.m3u8
+https://stream8.cinerama.uz/1443/tracks-v1a1/mono.m3u8
 
 # VF kanalları da 🎬 Film qrupundadır
 #EXTINF:-1 group-title="🎬 Film",VF Netflix
@@ -294,13 +295,15 @@ http://jexywacp.tvclub.xyz/iptv/2VLF3G39GK7LBH/15010/index.m3u8
 
 # 🎵 MUSİQİ
 #EXTINF:-1 group-title="🎵 Musiqi",Bridge TV
-http://stream.mcquack.net/318/index.m3u8
+http://flussonic.mkpnet.ru/tv-ceaa6aa3cc1ea359/video.m3u8
 #EXTINF:-1 group-title="🎵 Musiqi",BRIDGE Classic
 http://stream.mcquack.net/272/index.m3u8
 #EXTINF:-1 group-title="🎵 Musiqi",BRIDGE Deluxe HD
-http://stream.mcquack.net/92/index.m3u8
+#EXTGRP:Музыка
+http://5.188.159.128:8070/Bridge_TV_Deluxe/index.m3u8
 #EXTINF:-1 group-title="🎵 Musiqi",BRIDGE Hits
-http://stream.mcquack.net/320/index.m3u8
+#EXTGRP:Музыка
+http://5.188.159.128:8070/Bridge_TV_Hits/index.m3u8
 #EXTINF:-1 group-title="🎵 Musiqi",BRIDGE Rock
 http://178.134.1.158:8081/BRIDGEROCK/index.m3u8
 
@@ -321,7 +324,7 @@ http://jexywacp.tvclub.xyz/iptv/2VLF3G39GK7LBH/272/index.m3u
 #EXTINF:-1 group-title="⚽ İdman",Setanta Ukraine Plus HD
 http://jexywacp.tvclub.xyz/iptv/2VLF3G39GK7LBH/5068/index.m3u
 #EXTINF:-1 group-title="⚽ İdman",Viju+ Sport
-http://stream.mcquack.net/333/index.m3u8
+http://91.205.196.7:8000/play/a02y
 #EXTINF:-1 group-title="⚽ İdman",Футбол
 http://178.124.179.122:8088/Setanta1/index.m3u8
 #EXTINF:-1 group-title="⚽ İdman",ТВ Спорт HD
@@ -336,11 +339,11 @@ https://flussonic.mkpnet.ru/tv-7a85ea25208f5bf7/video.m3u8
 #EXTINF:-1 tvg-id="Viju explore" group-title="🧠 Sənədli",Viju explore
 https://flussonic.mkpnet.ru/tv-7c57a4c3f9a896ea/video.m3u8
 #EXTINF:-1 tvg-id="Viju explore" group-title="🧠 Sənədli",Viasat History
-http://185.32.44.154/viasathistory/tracks-v1a1/index.m3u8
+https://stream8.cinerama.uz/1046/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="Viju explore" group-title="🧠 Sənədli",Discovery Channel
 http://mfe02.cliptv.az/dash/Discovery_Channel_HDqwer456y.ism/playlist.mpd
 #EXTINF:-1 tvg-id="Viju explore" group-title="🧠 Sənədli",National Geographic
-http://stream.mcquack.net/116/index.m3u8
+https://stream8.cinerama.uz/1041/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="TLC" group-title="🧠 Sənədli",TLC
 http://vipl.one/hls/28u6ktvdax/169.m3u8
 

@@ -137,11 +137,11 @@
  },
  "🎬 Film|Fim Z|1": {
   "fails": 0,
-  "last_ok": "2026-11-24 19:33 UTC"
+  "last_ok": "2026-11-24 19:36 UTC"
  },
  "🎬 Film|Fanatik Max Korku|1": {
   "fails": 0,
-  "last_ok": "2026-11-24 19:33 UTC"
+  "last_ok": "2026-11-24 19:36 UTC"
  },
  "🎵 Musiqi|TURK MUZIK|1": {
   "fails": 0,
@@ -165,7 +165,7 @@
  },
  "🎵 Musiqi|NR1|1": {
   "fails": 0,
-  "last_ok": "2026-11-24 19:33 UTC"
+  "last_ok": "2026-11-24 19:36 UTC"
  },
  "⚽ İdman|S Sporr HD|1": {
   "fails": 0,
@@ -213,324 +213,324 @@
  },
  "👶 Uşaq|CAILLOU|1": {
   "fails": 0,
-  "last_ok": "2026-11-24 19:33 UTC"
+  "last_ok": "2026-11-24 19:36 UTC"
  },
  "🧠 Sənədli|Ed Stafford|1": {
   "fails": 0,
-  "last_ok": "2026-11-24 19:33 UTC"
+  "last_ok": "2026-11-24 19:36 UTC"
  },
  "⭐ Əsas|РЕН ТВ|1": {
-  "fails": 1,
-  "last_ok": "-",
-  "why": "ConnectTimeout"
+  "fails": 0,
+  "last_ok": "2026-11-24 19:36 UTC",
+  "replaced_from": "http://185.32.44.154/rentv/tracks-v1a1/index.m3u8"
  },
  "⭐ Əsas|НТВ HD|1": {
   "fails": 0,
-  "last_ok": "2026-11-24 19:33 UTC"
+  "last_ok": "2026-11-24 19:36 UTC"
  },
  "⭐ Əsas|НТВ Стиль|1": {
   "fails": 0,
-  "last_ok": "2026-11-24 19:33 UTC"
+  "last_ok": "2026-11-24 19:36 UTC"
  },
  "⭐ Əsas|НТВ Сериал|1": {
   "fails": 0,
-  "last_ok": "2026-11-24 19:33 UTC"
+  "last_ok": "2026-11-24 19:36 UTC"
  },
  "⭐ Əsas|НТВ Хит|1": {
   "fails": 0,
-  "last_ok": "2026-11-24 19:33 UTC"
+  "last_ok": "2026-11-24 19:36 UTC"
  },
  "⭐ Əsas|Большая Азия HD|1": {
   "fails": 0,
-  "last_ok": "2026-11-24 19:33 UTC"
+  "last_ok": "2026-11-24 19:36 UTC"
  },
  "⭐ Əsas|ТВ3|1": {
   "fails": 0,
-  "last_ok": "2026-11-24 19:33 UTC"
+  "last_ok": "2026-11-24 19:36 UTC"
  },
  "⭐ Əsas|Домашний|1": {
   "fails": 0,
-  "last_ok": "2026-11-24 19:33 UTC"
+  "last_ok": "2026-11-24 19:36 UTC"
  },
  "⭐ Əsas|ТНТ4|1": {
   "fails": 0,
-  "last_ok": "2026-11-24 19:33 UTC"
+  "last_ok": "2026-11-24 19:36 UTC"
  },
  "⭐ Əsas|ТНТ|1": {
   "fails": 0,
-  "last_ok": "2026-11-24 19:33 UTC"
+  "last_ok": "2026-11-24 19:36 UTC"
  },
  "⭐ Əsas|Пятница! HD|1": {
   "fails": 0,
-  "last_ok": "2026-11-24 19:33 UTC"
+  "last_ok": "2026-11-24 19:36 UTC"
  },
  "⭐ Əsas|СТС HD|1": {
   "fails": 0,
-  "last_ok": "2026-11-24 19:33 UTC"
+  "last_ok": "2026-11-24 19:36 UTC"
  },
  "🎬 Film|Мужское кино|1": {
   "fails": 0,
-  "last_ok": "2026-11-24 19:33 UTC"
+  "last_ok": "2026-11-24 19:36 UTC"
  },
  "🎬 Film|Мужское кино International|1": {
   "fails": 0,
-  "last_ok": "2026-11-24 19:33 UTC"
+  "last_ok": "2026-11-24 19:36 UTC"
  },
  "🎬 Film|Киноxит|1": {
   "fails": 0,
-  "last_ok": "2026-11-24 19:33 UTC"
+  "last_ok": "2026-11-24 19:36 UTC"
  },
  "🎬 Film|Киноxит|2": {
   "fails": 0,
-  "last_ok": "2026-11-24 19:33 UTC"
+  "last_ok": "2026-11-24 19:36 UTC"
  },
  "🎬 Film|Kinomiks|1": {
   "fails": 0,
-  "last_ok": "2026-11-24 19:33 UTC"
+  "last_ok": "2026-11-24 19:36 UTC"
  },
  "🎬 Film|КИНОПОКАЗ|1": {
   "fails": 0,
-  "last_ok": "2026-11-24 19:33 UTC"
+  "last_ok": "2026-11-24 19:36 UTC"
  },
  "🎬 Film|Кинопремьера|1": {
   "fails": 0,
-  "last_ok": "2026-11-24 19:33 UTC"
+  "last_ok": "2026-11-24 19:36 UTC"
  },
  "🎬 Film|Кинопремьера 2|1": {
   "fails": 0,
-  "last_ok": "2026-11-24 19:33 UTC"
+  "last_ok": "2026-11-24 19:36 UTC"
  },
  "🎬 Film|Киносвидание|1": {
   "fails": 0,
-  "last_ok": "2026-11-24 19:33 UTC"
+  "last_ok": "2026-11-24 19:36 UTC"
  },
  "🎬 Film|viju+ Megahit HD (1080p)|1": {
   "fails": 0,
-  "last_ok": "2026-11-24 19:33 UTC"
+  "last_ok": "2026-11-24 19:36 UTC"
  },
  "🎬 Film|viju+ Premiere HD (1080p)|1": {
   "fails": 0,
-  "last_ok": "2026-11-24 19:33 UTC"
+  "last_ok": "2026-11-24 19:36 UTC"
  },
  "🎬 Film|viju TV1000 Action|1": {
   "fails": 0,
-  "last_ok": "2026-11-24 19:33 UTC"
+  "last_ok": "2026-11-24 19:36 UTC"
  },
  "🎬 Film|Киноужас|1": {
-  "fails": 1,
-  "last_ok": "-",
-  "why": "HTTP 403"
+  "fails": 0,
+  "last_ok": "2026-11-24 19:36 UTC",
+  "replaced_from": "https://fs.uplink.kz/kinouzhas/mono.m3u8?token=onlinetv"
  },
  "🎬 Film|КИНОКОМЕДИЯ|1": {
   "fails": 0,
-  "last_ok": "2026-11-24 19:33 UTC"
+  "last_ok": "2026-11-24 19:36 UTC"
  },
  "🎬 Film|КИНОСЕРИЯ|1": {
   "fails": 0,
-  "last_ok": "2026-11-24 19:33 UTC"
+  "last_ok": "2026-11-24 19:36 UTC"
  },
  "🎬 Film|.black|1": {
   "fails": 0,
-  "last_ok": "2026-11-24 19:33 UTC"
+  "last_ok": "2026-11-24 19:36 UTC"
  },
  "🎬 Film|Киносат|1": {
   "fails": 0,
-  "last_ok": "2026-11-24 19:33 UTC"
+  "last_ok": "2026-11-24 19:36 UTC"
  },
  "🎬 Film|КиноTv|1": {
   "fails": 0,
-  "last_ok": "2026-11-24 19:33 UTC"
+  "last_ok": "2026-11-24 19:36 UTC"
  },
  "🎬 Film|Cinema|1": {
   "fails": 0,
-  "last_ok": "2026-11-24 19:33 UTC"
+  "last_ok": "2026-11-24 19:36 UTC"
  },
  "🎬 Film|Viasat Epic Drama|1": {
   "fails": 0,
-  "last_ok": "2026-11-24 19:33 UTC"
+  "last_ok": "2026-11-24 19:36 UTC"
  },
  "🎬 Film|Dom kino Premium HD (1080p)|1": {
-  "fails": 1,
-  "last_ok": "-",
-  "why": "HTTP 403"
+  "fails": 0,
+  "last_ok": "2026-11-24 19:36 UTC",
+  "replaced_from": "http://stream.mcquack.net/108/index.m3u8"
  },
  "🎬 Film|Film UA Drama|1": {
-  "fails": 1,
+  "fails": 2,
   "last_ok": "-",
   "why": "HTTP 404"
  },
  "🎬 Film|Мосфильм. Золотая коллекция|1": {
-  "fails": 1,
-  "last_ok": "-",
-  "why": "HTTP 403"
+  "fails": 0,
+  "last_ok": "2026-11-24 19:36 UTC",
+  "replaced_from": "http://stream.mcquack.net/369/index.m3u8"
  },
  "🎬 Film|Кино 1 International [Not 24/7]|1": {
   "fails": 0,
-  "last_ok": "2026-11-24 19:33 UTC"
+  "last_ok": "2026-11-24 19:36 UTC"
  },
  "🎬 Film|KinoKazka|1": {
-  "fails": 1,
+  "fails": 2,
   "last_ok": "-",
   "why": "HTTP 403"
  },
  "🎬 Film|Fox|1": {
-  "fails": 1,
+  "fails": 2,
   "last_ok": "-",
   "why": "HTTP 403"
  },
  "🎬 Film|Fox Life|1": {
-  "fails": 1,
-  "last_ok": "-",
-  "why": "HTTP 403"
+  "fails": 0,
+  "last_ok": "2026-11-24 19:37 UTC",
+  "replaced_from": "http://stream.mcquack.net/129/index.m3u8"
  },
  "🎬 Film|Hollywood|1": {
-  "fails": 1,
-  "last_ok": "-",
-  "why": "HTTP 403"
+  "fails": 0,
+  "last_ok": "2026-11-24 19:37 UTC",
+  "replaced_from": "http://stream.mcquack.net/268/index.m3u8"
  },
  "🎬 Film|VF Netflix|1": {
-  "fails": 1,
+  "fails": 2,
   "last_ok": "-",
   "why": "HTTP 404"
  },
  "🎬 Film|VF Premiere|1": {
-  "fails": 1,
+  "fails": 2,
   "last_ok": "-",
   "why": "HTTP 404"
  },
  "🎬 Film|VF Comedy|1": {
-  "fails": 1,
+  "fails": 2,
   "last_ok": "-",
   "why": "HTTP 404"
  },
  "🎬 Film|VF Classic|1": {
-  "fails": 1,
+  "fails": 2,
   "last_ok": "-",
   "why": "HTTP 404"
  },
  "🎬 Film|VF Боевик|1": {
-  "fails": 1,
+  "fails": 2,
   "last_ok": "-",
   "why": "HTTP 404"
  },
  "🎬 Film|VF Катастрофы|1": {
-  "fails": 1,
+  "fails": 2,
   "last_ok": "-",
   "why": "HTTP 404"
  },
  "🎬 Film|VF Detective|1": {
-  "fails": 1,
+  "fails": 2,
   "last_ok": "-",
   "why": "HTTP 404"
  },
  "🎬 Film|VF Mystic|1": {
-  "fails": 1,
+  "fails": 2,
   "last_ok": "-",
   "why": "HTTP 404"
  },
  "🎬 Film|VF Fantastic|1": {
-  "fails": 1,
+  "fails": 2,
   "last_ok": "-",
   "why": "HTTP 404"
  },
  "🎬 Film|VF Marvel|1": {
-  "fails": 1,
+  "fails": 2,
   "last_ok": "-",
   "why": "HTTP 404"
  },
  "🎬 Film|VF Comics|1": {
-  "fails": 1,
+  "fails": 2,
   "last_ok": "-",
   "why": "HTTP 404"
  },
  "🎬 Film|VF Adventure|1": {
-  "fails": 1,
+  "fails": 2,
   "last_ok": "-",
   "why": "HTTP 404"
  },
  "🎬 Film|VF Fantasy|1": {
-  "fails": 1,
+  "fails": 2,
   "last_ok": "-",
   "why": "HTTP 404"
  },
  "🎬 Film|VF Thriller|1": {
-  "fails": 1,
+  "fails": 2,
   "last_ok": "-",
   "why": "HTTP 404"
  },
  "🎬 Film|VF История|1": {
-  "fails": 1,
+  "fails": 2,
   "last_ok": "-",
   "why": "HTTP 404"
  },
  "🎬 Film|VF Оскар|1": {
-  "fails": 1,
+  "fails": 2,
   "last_ok": "-",
   "why": "HTTP 404"
  },
  "🎬 Film|VF Family|1": {
-  "fails": 1,
+  "fails": 2,
   "last_ok": "-",
   "why": "HTTP 404"
  },
  "🎬 Film|VF Melodrama|1": {
-  "fails": 1,
+  "fails": 2,
   "last_ok": "-",
   "why": "HTTP 404"
  },
  "🎬 Film|VF Ужасы|1": {
-  "fails": 1,
+  "fails": 2,
   "last_ok": "-",
   "why": "HTTP 404"
  },
  "🎬 Film|VF Ужасы VHS|1": {
-  "fails": 1,
+  "fails": 2,
   "last_ok": "-",
   "why": "HTTP 404"
  },
  "🎬 Film|VF Криминал|1": {
-  "fails": 1,
+  "fails": 2,
   "last_ok": "-",
   "why": "HTTP 404"
  },
  "🎬 Film|VF Art house|1": {
-  "fails": 1,
+  "fails": 2,
   "last_ok": "-",
   "why": "HTTP 404"
  },
  "🎬 Film|VF Мосфильм|1": {
-  "fails": 1,
+  "fails": 2,
   "last_ok": "-",
   "why": "HTTP 404"
  },
  "🎬 Film|VF Disney Movie|1": {
-  "fails": 1,
+  "fails": 2,
   "last_ok": "-",
   "why": "HTTP 404"
  },
  "🎵 Musiqi|Bridge TV|1": {
-  "fails": 1,
-  "last_ok": "-",
-  "why": "HTTP 403"
+  "fails": 0,
+  "last_ok": "2026-11-24 19:37 UTC",
+  "replaced_from": "http://stream.mcquack.net/318/index.m3u8"
  },
  "🎵 Musiqi|BRIDGE Classic|1": {
-  "fails": 1,
+  "fails": 2,
   "last_ok": "-",
   "why": "HTTP 403"
  },
  "🎵 Musiqi|BRIDGE Deluxe HD|1": {
-  "fails": 1,
-  "last_ok": "-",
-  "why": "HTTP 403"
+  "fails": 0,
+  "last_ok": "2026-11-24 19:38 UTC",
+  "replaced_from": "http://stream.mcquack.net/92/index.m3u8"
  },
  "🎵 Musiqi|BRIDGE Hits|1": {
-  "fails": 1,
-  "last_ok": "-",
-  "why": "HTTP 403"
+  "fails": 0,
+  "last_ok": "2026-11-24 19:38 UTC",
+  "replaced_from": "http://stream.mcquack.net/320/index.m3u8"
  },
  "🎵 Musiqi|BRIDGE Rock|1": {
   "fails": 0,
-  "last_ok": "2026-11-24 19:33 UTC"
+  "last_ok": "2026-11-24 19:36 UTC"
  },
  "⚽ İdman|Футбол 1|1": {
   "fails": 0,
@@ -545,62 +545,62 @@
   "last_ok": "-"
  },
  "⚽ İdman|Setanta Eurasia HD|1": {
-  "fails": 1,
+  "fails": 2,
   "last_ok": "-",
   "why": "HTTP 404"
  },
  "⚽ İdman|Setanta Ukraine HD|1": {
-  "fails": 1,
+  "fails": 2,
   "last_ok": "-",
   "why": "HTTP 404"
  },
  "⚽ İdman|Setanta Ukraine Plus HD|1": {
-  "fails": 1,
+  "fails": 2,
   "last_ok": "-",
   "why": "HTTP 404"
  },
  "⚽ İdman|Viju+ Sport|1": {
-  "fails": 1,
-  "last_ok": "-",
-  "why": "HTTP 403"
+  "fails": 0,
+  "last_ok": "2026-11-24 19:38 UTC",
+  "replaced_from": "http://stream.mcquack.net/333/index.m3u8"
  },
  "⚽ İdman|Футбол|1": {
-  "fails": 1,
+  "fails": 2,
   "last_ok": "-",
   "why": "HTTP 400"
  },
  "⚽ İdman|ТВ Спорт HD|1": {
   "fails": 0,
-  "last_ok": "2026-11-24 19:33 UTC"
+  "last_ok": "2026-11-24 19:36 UTC"
  },
  "🧠 Sənədli|Animal Planet HD|1": {
   "fails": 0,
-  "last_ok": "2026-11-24 19:33 UTC"
+  "last_ok": "2026-11-24 19:36 UTC"
  },
  "🧠 Sənədli|Viju nature|1": {
   "fails": 0,
-  "last_ok": "2026-11-24 19:33 UTC"
+  "last_ok": "2026-11-24 19:36 UTC"
  },
  "🧠 Sənədli|Viju explore|1": {
   "fails": 0,
-  "last_ok": "2026-11-24 19:33 UTC"
+  "last_ok": "2026-11-24 19:36 UTC"
  },
  "🧠 Sənədli|Viasat History|1": {
-  "fails": 1,
-  "last_ok": "-",
-  "why": "ConnectTimeout"
+  "fails": 0,
+  "last_ok": "2026-11-24 19:38 UTC",
+  "replaced_from": "http://185.32.44.154/viasathistory/tracks-v1a1/index.m3u8"
  },
  "🧠 Sənədli|Discovery Channel|1": {
   "fails": 0,
   "last_ok": "-"
  },
  "🧠 Sənədli|National Geographic|1": {
-  "fails": 1,
-  "last_ok": "-",
-  "why": "HTTP 403"
+  "fails": 0,
+  "last_ok": "2026-11-24 19:39 UTC",
+  "replaced_from": "http://stream.mcquack.net/116/index.m3u8"
  },
  "🧠 Sənədli|TLC|1": {
   "fails": 0,
-  "last_ok": "2026-11-24 19:33 UTC"
+  "last_ok": "2026-11-24 19:36 UTC"
  }
 }
