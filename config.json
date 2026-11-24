@@ -1,0 +1,27 @@
+{
+  "timeout": 8,
+  "workers": 40,
+  "fail_threshold": 2,
+  "match_threshold": 0.9,
+  "max_candidates": 8,
+  "protected": [],
+  "aliases": {
+    "Xezer TV": [
+      "Khazar TV"
+    ],
+    "İctimai TV": [
+      "Ictimai",
+      "ITV"
+    ]
+  },
+  "geo_hosts": [
+    "baku.tv",
+    "showplus.tv",
+    "atv.az",
+    "siauliairsavlt.pw",
+    "109.205.166.68",
+    "89.187.191.41",
+    "rostelekom.xyz",
+    "andro.3749206.xyz"
+  ]
+}

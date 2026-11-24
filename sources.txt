@@ -1,0 +1,7 @@
+# Ehtiyat (zapas) siyahıların linkləri — hər sətirdə bir link.
+# Playlist-dəki kanal ölərsə, əvəzi buradakı siyahılardan axtarılır.
+# GitHub "blob" linkini də yapışdıra bilərsən, avtomatik raw-a çevrilir.
+# Kiçik siyahıları əvəzinə backup/ qovluğuna .m3u faylı kimi də qoya bilərsən.
+#
+# Nümunə:
+# https://raw.githubusercontent.com/istifadeci/repo/main/siyahi.m3u
