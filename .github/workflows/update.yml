@@ -1,1 +1,46 @@
+name: Playlist yoxla və yenilə
 
+on:
+  schedule:
+    - cron: "0 */12 * * *"   # gündə 2 dəfə (UTC)
+  workflow_dispatch:          # Actions səhifəsindən əl ilə işə sal
+  push:
+    paths:
+      - "sources.txt"
+      - "config.json"
+      - "backup/**"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: playlist-update
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - run: pip install -r requirements.txt
+
+      - name: Yoxla və əvəz et
+        run: python scripts/checker.py
+
+      - name: Dəyişiklik varsa commit et
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          if git diff --cached --quiet; then
+            echo "Dəyişiklik yoxdur"
+          else
+            git commit -m "auto: playlist yeniləndi $(date -u +'%Y-%m-%d %H:%M')"
+            git push
+          fi
