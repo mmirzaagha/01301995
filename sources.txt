@@ -5,3 +5,12 @@
 #
 # Nümunə:
 # https://raw.githubusercontent.com/istifadeci/repo/main/siyahi.m3u
+https://iptv.org.ua/iptv/avto-full.m3u
+https://raw.githubusercontent.com/slava-67/TV/IPTV/avto-full.m3u
+https://raw.githubusercontent.com/itspec85/New/refs/heads/main/TV.m3u
+https://raw.githubusercontent.com/Jasser293/mama/refs/heads/main/Listtv
+https://raw.githubusercontent.com/Jasser293/MyList/refs/heads/main/list
+https://raw.githubusercontent.com/la22lo/sports/refs/heads/main/futbol.m3u
+https://raw.githubusercontent.com/aydin-rustemov/iptv/refs/heads/main/playlist.m3u
+https://raw.githubusercontent.com/ASKER80PMR/IPTV/refs/heads/main/MoeTV.m3u8
+https://raw.githubusercontent.com/ASKER80PMR/IPTV/refs/heads/main/UrsuTV.m3u8
