@@ -120,14 +120,6 @@ https://listen.powerapp.com.tr/dance/dance.smil/playlist.m3u8
 https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/u_stream_5c9e17cd6360b_1/playlist.m3u8
 
 # ⚽ İDMAN
-#EXTINF:-1 group-title="⚽ İdman",S Sporr HD
-https://andro.3749206.xyz/checklist/androstreamlivess1.m3u8
-#EXTINF:-1 group-title="⚽ İdman", Bein Sport 1
-https://andro.3749206.xyz/checklist/androstreamlivebs1.m3u8
-#EXTINF:-1 group-title="⚽ İdman", Bein Sport 2
-https://andro.3749206.xyz/checklist/androstreamlivebs2.m3u8
-#EXTINF:-1 group-title="⚽ İdman", Bein Sport 4
-https://andro.3749206.xyz/checklist/androstreamlivebs4.m3u8
 #EXTINF:-1 group-title="⚽ İdman", HT SPOR
 https://rmtftbjlne.turknet.ercdn.net/bpeytmnqyp/ht-spor/ht-spor.m3u8
 #EXTINF:-1 group-title="⚽ İdman", A SPOR
@@ -227,77 +219,21 @@ https://stream8.cinerama.uz/1227/tracks-v1a1/mono.m3u8
 http://195.189.60.253/118/index.m3u8
 #EXTINF:-1 group-title="🎬 Film",Dom kino Premium HD (1080p)
 https://fs.uplink.kz/dom_kino_premium/mono.m3u8?token=onlinetv2
-#EXTINF:-1 group-title="🎬 Film",Film UA Drama
-http://88.99.215.227/FilmUADrama/index.m3u8
 #EXTINF:-1 group-title="🎬 Film",Мосфильм. Золотая коллекция
 http://185.76.10.53:8080/srv5/mosfilm/tracks-v1a1/mono.m3u8?cid=144&did=5366158&m=1&rid=24397&token=2022b6576a65c40ede42a7d4941b5471
 #EXTINF:-1 group-title="🎬 Film",Кино 1 International [Not 24/7]
 http://kino-1.catcast.tv/content/38617/index.m3u8
-#EXTINF:-1 tvg-id="Discovery" group-title="🎬 Film",KinoKazka
-http://stream.mcquack.net/167/index.m3u8
-#EXTINF:-1 tvg-id="Discovery" group-title="🎬 Film",Fox
-http://stream.mcquack.net/182/index.m3u8
 #EXTINF:-1 tvg-id="Discovery" group-title="🎬 Film",Fox Life
 https://live.uspeh.my/8052/video.m3u8?token=EHFHvNjTwqcqsiKN
 #EXTINF:-1 tvg-id="Discovery" group-title="🎬 Film",Hollywood
 https://stream8.cinerama.uz/1443/tracks-v1a1/mono.m3u8
 
 # VF kanalları da 🎬 Film qrupundadır
-#EXTINF:-1 group-title="🎬 Film",VF Netflix
-http://jexywacp.tvclub.xyz/iptv/2VLF3G39GK7LBH/19427/index.m3u8
-#EXTINF:-1 group-title="🎬 Film",VF Premiere
-http://jexywacp.tvclub.xyz/iptv/2VLF3G39GK7LBH/10052/index.m3u8
-#EXTINF:-1 group-title="🎬 Film",VF Comedy
-http://jexywacp.tvclub.xyz/iptv/2VLF3G39GK7LBH/10003/index.m3u8
-#EXTINF:-1 group-title="🎬 Film",VF Classic
-http://jexywacp.tvclub.xyz/iptv/2VLF3G39GK7LBH/10054/index.m3u8
-#EXTINF:-1 group-title="🎬 Film",VF Боевик
-http://jexywacp.tvclub.xyz/iptv/2VLF3G39GK7LBH/10087/index.m3u8
-#EXTINF:-1 group-title="🎬 Film",VF Катастрофы
-http://jexywacp.tvclub.xyz/iptv/2VLF3G39GK7LBH/10080/index.m3u8
-#EXTINF:-1 group-title="🎬 Film",VF Detective
-http://jexywacp.tvclub.xyz/iptv/2VLF3G39GK7LBH/11120/index.m3u8
-#EXTINF:-1 group-title="🎬 Film",VF Mystic
-http://jexywacp.tvclub.xyz/iptv/2VLF3G39GK7LBH/10007/index.m3u8
-#EXTINF:-1 group-title="🎬 Film",VF Fantastic
-http://jexywacp.tvclub.xyz/iptv/2VLF3G39GK7LBH/11121/index.m3u8
-#EXTINF:-1 group-title="🎬 Film",VF Marvel
-http://jexywacp.tvclub.xyz/iptv/2VLF3G39GK7LBH/10081/index.m3u8
-#EXTINF:-1 group-title="🎬 Film",VF Comics
-http://jexywacp.tvclub.xyz/iptv/2VLF3G39GK7LBH/13092/index.m3u8
-#EXTINF:-1 group-title="🎬 Film",VF Adventure
-http://jexywacp.tvclub.xyz/iptv/2VLF3G39GK7LBH/10000/index.m3u8
-#EXTINF:-1 group-title="🎬 Film",VF Fantasy
-http://jexywacp.tvclub.xyz/iptv/2VLF3G39GK7LBH/10005/index.m3u8
-#EXTINF:-1 group-title="🎬 Film",VF Thriller
-http://jexywacp.tvclub.xyz/iptv/2VLF3G39GK7LBH/13089/index.m3u8
-#EXTINF:-1 group-title="🎬 Film",VF История
-http://jexywacp.tvclub.xyz/iptv/2VLF3G39GK7LBH/13091/index.m3u8
-#EXTINF:-1 group-title="🎬 Film",VF Оскар
-http://jexywacp.tvclub.xyz/iptv/2VLF3G39GK7LBH/11122/index.m3u8
-#EXTINF:-1 group-title="🎬 Film",VF Family
-http://jexywacp.tvclub.xyz/iptv/2VLF3G39GK7LBH/10004/index.m3u8
-#EXTINF:-1 group-title="🎬 Film",VF Melodrama
-http://jexywacp.tvclub.xyz/iptv/2VLF3G39GK7LBH/10006/index.m3u8
-#EXTINF:-1 group-title="🎬 Film",VF Ужасы
-http://jexywacp.tvclub.xyz/iptv/2VLF3G39GK7LBH/10008/index.m3u8
-#EXTINF:-1 group-title="🎬 Film",VF Ужасы VHS
-http://jexywacp.tvclub.xyz/iptv/2VLF3G39GK7LBH/10010/index.m3u8
-#EXTINF:-1 group-title="🎬 Film",VF Криминал
-http://jexywacp.tvclub.xyz/iptv/2VLF3G39GK7LBH/13093/index.m3u8
-#EXTINF:-1 group-title="🎬 Film",VF Art house
-http://jexywacp.tvclub.xyz/iptv/2VLF3G39GK7LBH/11119/index.m3u8
-#EXTINF:-1 group-title="🎬 Film",VF Мосфильм
-http://jexywacp.tvclub.xyz/iptv/2VLF3G39GK7LBH/10084/index.m3u8
-#EXTINF:-1 group-title="🎬 Film",VF Disney Movie
-http://jexywacp.tvclub.xyz/iptv/2VLF3G39GK7LBH/15010/index.m3u8
 
 
 # 🎵 MUSİQİ
 #EXTINF:-1 group-title="🎵 Musiqi",Bridge TV
 http://flussonic.mkpnet.ru/tv-ceaa6aa3cc1ea359/video.m3u8
-#EXTINF:-1 group-title="🎵 Musiqi",BRIDGE Classic
-http://stream.mcquack.net/272/index.m3u8
 #EXTINF:-1 group-title="🎵 Musiqi",BRIDGE Deluxe HD
 #EXTGRP:Музыка
 http://5.188.159.128:8070/Bridge_TV_Deluxe/index.m3u8
@@ -317,16 +253,8 @@ http://109.205.166.68/2712/match_futbol_1/index3.m3u8?st=jZDkhPwrilakQINreN0w2w&
 http://109.205.166.68/2712/match_futbol_2/index3.m3u8?st=jZDkhPwrilakQINreN0w2w&e=1652674806
 #EXTINF:-1 group-title="⚽ İdman",Футбол 3
 http://109.205.166.68/2712/match_futbol_3/index3.m3u8?st=jZDkhPwrilakQINreN0w2w&e=1652674806
-#EXTINF:-1 group-title="⚽ İdman",Setanta Eurasia HD
-http://jexywacp.tvclub.xyz/iptv/2VLF3G39GK7LBH/271/index.m3u
-#EXTINF:-1 group-title="⚽ İdman",Setanta Ukraine HD
-http://jexywacp.tvclub.xyz/iptv/2VLF3G39GK7LBH/272/index.m3u
-#EXTINF:-1 group-title="⚽ İdman",Setanta Ukraine Plus HD
-http://jexywacp.tvclub.xyz/iptv/2VLF3G39GK7LBH/5068/index.m3u
 #EXTINF:-1 group-title="⚽ İdman",Viju+ Sport
 http://91.205.196.7:8000/play/a02y
-#EXTINF:-1 group-title="⚽ İdman",Футбол
-http://178.124.179.122:8088/Setanta1/index.m3u8
 #EXTINF:-1 group-title="⚽ İdman",ТВ Спорт HD
 http://live-3.otcnet.ru/sportivny/tracks-v1a1/mono.ts.m3u8
 
