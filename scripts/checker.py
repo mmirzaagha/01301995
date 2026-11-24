@@ -41,6 +41,7 @@ DEFAULT_CONFIG = {
     "geo_hosts": [],         # host-da bu parça olan linklər AZ/TR-dən kənarda yoxlanmır
     "trusted_countries": ["AZ", "TR"],  # yoxlayıcı bu ölkələrdən işləyirsə geo linklər də yoxlanır
     "geo_proxy": "",         # məs. "socks5h://user:pass@host:port" (AZ/TR proxy), yalnız geo linklər üçün
+    "remove_unfixed": True,  # əvəzi tapılmayan ölü kanalı playlist-dən sil
     "max_dead_ratio": 0.6,   # yoxlananların bu qədərindən çoxu ölü çıxsa, şəbəkə xətası sayılır, heç nə yazılmır
 }
 
@@ -462,10 +463,23 @@ def main() -> int:
     else:
         unfixed = list(dead)
 
+    # silinəcəklər: əvəzi tapılmayan ölülər (qorunanlar və --check-only istisna)
+    removed = []
+    if cfg.get("remove_unfixed") and not args.check_only:
+        removed = [(e, why) for e, why in unfixed if not why.endswith("(qorunur)")]
+        unfixed = [(e, why) for e, why in unfixed if why.endswith("(qorunur)")]
+        for e, _ in removed:
+            new_state.pop(e.key, None)
+
     # 3) yaz
-    if replaced and not args.dry_run:
-        for e, c, _ in sorted(replaced, key=lambda x: -x[0].ext_idx):
-            lines[e.ext_idx + 1: e.url_idx + 1] = list(c.extras) + [c.url]
+    if (replaced or removed) and not args.dry_run:
+        ops = [(e.ext_idx, e.url_idx, list(c.extras) + [c.url]) for e, c, _ in replaced]
+        ops += [(e.ext_idx, e.url_idx, None) for e, _ in removed]
+        for ext_idx, url_idx, new in sorted(ops, key=lambda x: -x[0]):
+            if new is None:
+                del lines[ext_idx: url_idx + 1]
+            else:
+                lines[ext_idx + 1: url_idx + 1] = new
         pl_path.write_text("\n".join(lines) + "\n", encoding="utf-8")
 
     if not args.dry_run:
@@ -473,12 +487,14 @@ def main() -> int:
         rep = root / "reports"
         rep.mkdir(exist_ok=True)
         write_report(rep / "status.md", len(entries), alive, pending, replaced, unfixed, skipped, country)
-        if replaced:
+        if replaced or removed:
             with (rep / "replacements.log").open("a", encoding="utf-8") as f:
+                for e, why in removed:
+                    f.write(f"{now_iso()} | {e.group} | {e.name} | SİLİNDİ ({why}) | {e.url}\n")
                 for e, c, s in replaced:
                     f.write(f"{now_iso()} | {e.group} | {e.name} | {e.url} -> {c.url} ({c.source}, {s:.2f})\n")
 
-    print(f"Əvəz olundu: {len(replaced)} | Həll olunmadı: {len(unfixed)}")
+    print(f"Əvəz olundu: {len(replaced)} | Silindi: {len(removed)} | Həll olunmadı: {len(unfixed)}")
     return 0
 
 
