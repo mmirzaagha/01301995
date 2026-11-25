@@ -1,8 +1,8 @@
 # Playlist statusu
 
-Son yoxlama: **2026-11-25 07:09 UTC**
+Son yoxlama: **2026-11-25 21:06 UTC**
 
-- Cəmi: **105**  
+- Cəmi: **104**  
 - İşləyir: **54**  
 - Gözləmədə (ilk uğursuzluq): **0**  
 - Bu dəfə əvəz olundu: **0**  
