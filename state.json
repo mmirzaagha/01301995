@@ -137,11 +137,11 @@
  },
  "🎬 Film|Fim Z|1": {
   "fails": 0,
-  "last_ok": "2026-11-24 20:12 UTC"
+  "last_ok": "2026-11-25 07:09 UTC"
  },
  "🎬 Film|Fanatik Max Korku|1": {
   "fails": 0,
-  "last_ok": "2026-11-24 20:12 UTC"
+  "last_ok": "2026-11-25 07:09 UTC"
  },
  "🎵 Musiqi|TURK MUZIK|1": {
   "fails": 0,
@@ -165,7 +165,7 @@
  },
  "🎵 Musiqi|NR1|1": {
   "fails": 0,
-  "last_ok": "2026-11-24 20:12 UTC"
+  "last_ok": "2026-11-25 07:09 UTC"
  },
  "⚽ İdman|HT SPOR|1": {
   "fails": 0,
@@ -178,6 +178,18 @@
  "⚽ İdman|FB TV|1": {
   "fails": 0,
   "last_ok": "-"
+ },
+ "⚽ İdman|Tabii Spor|1": {
+  "fails": 0,
+  "last_ok": "2026-11-25 07:09 UTC"
+ },
+ "⚽ İdman|Tabii Spor|2": {
+  "fails": 0,
+  "last_ok": "2026-11-25 07:09 UTC"
+ },
+ "⚽ İdman|Smart Spor 1|1": {
+  "fails": 0,
+  "last_ok": "2026-11-25 07:09 UTC"
  },
  "👶 Uşaq|MİNİKA ÇOCUK|1": {
   "fails": 0,
@@ -197,168 +209,163 @@
  },
  "👶 Uşaq|CAILLOU|1": {
   "fails": 0,
-  "last_ok": "2026-11-24 20:12 UTC"
+  "last_ok": "2026-11-25 07:09 UTC"
  },
  "🧠 Sənədli|Ed Stafford|1": {
   "fails": 0,
-  "last_ok": "2026-11-24 20:12 UTC"
+  "last_ok": "2026-11-25 07:09 UTC"
  },
  "⭐ Əsas|РЕН ТВ|1": {
   "fails": 0,
-  "last_ok": "2026-11-24 20:12 UTC"
+  "last_ok": "2026-11-25 07:09 UTC"
  },
  "⭐ Əsas|НТВ HD|1": {
   "fails": 0,
-  "last_ok": "2026-11-24 20:12 UTC"
+  "last_ok": "2026-11-25 07:09 UTC"
  },
  "⭐ Əsas|НТВ Стиль|1": {
   "fails": 0,
-  "last_ok": "2026-11-24 20:12 UTC"
+  "last_ok": "2026-11-25 07:09 UTC"
  },
  "⭐ Əsas|НТВ Сериал|1": {
   "fails": 0,
-  "last_ok": "2026-11-24 20:12 UTC"
+  "last_ok": "2026-11-25 07:09 UTC"
  },
  "⭐ Əsas|НТВ Хит|1": {
   "fails": 0,
-  "last_ok": "2026-11-24 20:12 UTC"
+  "last_ok": "2026-11-25 07:09 UTC"
  },
  "⭐ Əsas|Большая Азия HD|1": {
   "fails": 0,
-  "last_ok": "2026-11-24 20:12 UTC"
+  "last_ok": "2026-11-25 07:09 UTC"
  },
  "⭐ Əsas|ТВ3|1": {
   "fails": 0,
-  "last_ok": "2026-11-24 20:12 UTC"
+  "last_ok": "2026-11-25 07:09 UTC"
  },
  "⭐ Əsas|Домашний|1": {
   "fails": 0,
-  "last_ok": "2026-11-24 20:12 UTC"
+  "last_ok": "2026-11-25 07:09 UTC"
  },
  "⭐ Əsas|ТНТ4|1": {
   "fails": 0,
-  "last_ok": "2026-11-24 20:12 UTC"
+  "last_ok": "2026-11-25 07:09 UTC"
  },
  "⭐ Əsas|ТНТ|1": {
   "fails": 0,
-  "last_ok": "2026-11-24 20:12 UTC"
+  "last_ok": "2026-11-25 07:09 UTC"
  },
  "⭐ Əsas|Пятница! HD|1": {
   "fails": 0,
-  "last_ok": "2026-11-24 20:12 UTC"
+  "last_ok": "2026-11-25 07:09 UTC"
  },
  "⭐ Əsas|СТС HD|1": {
   "fails": 0,
-  "last_ok": "2026-11-24 20:12 UTC"
+  "last_ok": "2026-11-25 07:09 UTC"
  },
  "🎬 Film|Мужское кино|1": {
   "fails": 0,
-  "last_ok": "2026-11-24 20:12 UTC"
+  "last_ok": "2026-11-25 07:09 UTC"
  },
  "🎬 Film|Мужское кино International|1": {
   "fails": 0,
-  "last_ok": "2026-11-24 20:12 UTC"
+  "last_ok": "2026-11-25 07:09 UTC"
  },
  "🎬 Film|Киноxит|1": {
   "fails": 0,
-  "last_ok": "2026-11-24 20:12 UTC"
+  "last_ok": "2026-11-25 07:09 UTC"
  },
  "🎬 Film|Kinomiks|1": {
   "fails": 0,
-  "last_ok": "2026-11-24 20:12 UTC"
+  "last_ok": "2026-11-25 07:09 UTC"
  },
  "🎬 Film|КИНОПОКАЗ|1": {
   "fails": 0,
-  "last_ok": "2026-11-24 20:12 UTC"
+  "last_ok": "2026-11-25 07:09 UTC"
  },
  "🎬 Film|Кинопремьера|1": {
   "fails": 0,
-  "last_ok": "2026-11-24 20:12 UTC"
+  "last_ok": "2026-11-25 07:09 UTC"
  },
  "🎬 Film|Киносвидание|1": {
   "fails": 0,
-  "last_ok": "2026-11-24 20:12 UTC"
+  "last_ok": "2026-11-25 07:09 UTC"
  },
  "🎬 Film|viju+ Megahit HD (1080p)|1": {
   "fails": 0,
-  "last_ok": "2026-11-24 20:12 UTC"
+  "last_ok": "2026-11-25 07:09 UTC"
  },
  "🎬 Film|viju+ Premiere HD (1080p)|1": {
   "fails": 0,
-  "last_ok": "2026-11-24 20:12 UTC"
+  "last_ok": "2026-11-25 07:09 UTC"
  },
  "🎬 Film|viju TV1000 Action|1": {
   "fails": 0,
-  "last_ok": "2026-11-24 20:12 UTC"
+  "last_ok": "2026-11-25 07:09 UTC"
  },
  "🎬 Film|Киноужас|1": {
   "fails": 0,
-  "last_ok": "2026-11-24 20:12 UTC"
+  "last_ok": "2026-11-25 07:09 UTC"
  },
  "🎬 Film|КИНОКОМЕДИЯ|1": {
   "fails": 0,
-  "last_ok": "2026-11-24 20:12 UTC"
+  "last_ok": "2026-11-25 07:09 UTC"
  },
  "🎬 Film|КИНОСЕРИЯ|1": {
   "fails": 0,
-  "last_ok": "2026-11-24 20:12 UTC"
+  "last_ok": "2026-11-25 07:09 UTC"
  },
  "🎬 Film|.black|1": {
   "fails": 0,
-  "last_ok": "2026-11-24 20:12 UTC"
+  "last_ok": "2026-11-25 07:09 UTC"
  },
  "🎬 Film|Киносат|1": {
   "fails": 0,
-  "last_ok": "2026-11-24 20:12 UTC"
+  "last_ok": "2026-11-25 07:09 UTC"
  },
  "🎬 Film|КиноTv|1": {
   "fails": 0,
-  "last_ok": "2026-11-24 20:12 UTC"
+  "last_ok": "2026-11-25 07:09 UTC"
  },
  "🎬 Film|Cinema|1": {
   "fails": 0,
-  "last_ok": "2026-11-24 20:12 UTC"
+  "last_ok": "2026-11-25 07:09 UTC"
  },
  "🎬 Film|Viasat Epic Drama|1": {
   "fails": 0,
-  "last_ok": "2026-11-24 20:12 UTC"
+  "last_ok": "2026-11-25 07:09 UTC"
  },
  "🎬 Film|Dom kino Premium HD (1080p)|1": {
   "fails": 0,
-  "last_ok": "2026-11-24 20:12 UTC"
+  "last_ok": "2026-11-25 07:09 UTC"
  },
  "🎬 Film|Мосфильм. Золотая коллекция|1": {
   "fails": 0,
-  "last_ok": "2026-11-24 20:12 UTC"
+  "last_ok": "2026-11-25 07:09 UTC"
  },
  "🎬 Film|Кино 1 International [Not 24/7]|1": {
   "fails": 0,
-  "last_ok": "2026-11-24 20:12 UTC"
+  "last_ok": "2026-11-25 07:09 UTC"
  },
  "🎬 Film|Fox Life|1": {
   "fails": 0,
-  "last_ok": "2026-11-24 20:12 UTC"
+  "last_ok": "2026-11-25 07:09 UTC"
  },
  "🎬 Film|Hollywood|1": {
   "fails": 0,
-  "last_ok": "2026-11-24 20:12 UTC"
+  "last_ok": "2026-11-25 07:09 UTC"
  },
  "🎵 Musiqi|Bridge TV|1": {
   "fails": 0,
-  "last_ok": "2026-11-24 20:12 UTC"
+  "last_ok": "2026-11-25 07:09 UTC"
  },
  "🎵 Musiqi|BRIDGE Deluxe HD|1": {
   "fails": 0,
-  "last_ok": "2026-11-24 20:12 UTC"
- },
- "🎵 Musiqi|BRIDGE Hits|1": {
-  "fails": 1,
-  "last_ok": "2026-11-24 19:38 UTC",
-  "why": "HTTP 404"
+  "last_ok": "2026-11-25 07:09 UTC"
  },
  "🎵 Musiqi|BRIDGE Rock|1": {
   "fails": 0,
-  "last_ok": "2026-11-24 20:12 UTC"
+  "last_ok": "2026-11-25 07:09 UTC"
  },
  "⚽ İdman|Футбол 1|1": {
   "fails": 0,
@@ -374,28 +381,27 @@
  },
  "⚽ İdman|Viju+ Sport|1": {
   "fails": 0,
-  "last_ok": "2026-11-24 20:12 UTC"
+  "last_ok": "2026-11-25 07:09 UTC"
  },
  "⚽ İdman|ТВ Спорт HD|1": {
-  "fails": 1,
-  "last_ok": "2026-11-24 19:36 UTC",
-  "why": "HTTP 503"
+  "fails": 0,
+  "last_ok": "2026-11-25 07:09 UTC"
  },
  "🧠 Sənədli|Animal Planet HD|1": {
   "fails": 0,
-  "last_ok": "2026-11-24 20:12 UTC"
+  "last_ok": "2026-11-25 07:09 UTC"
  },
  "🧠 Sənədli|Viju nature|1": {
   "fails": 0,
-  "last_ok": "2026-11-24 20:12 UTC"
+  "last_ok": "2026-11-25 07:09 UTC"
  },
  "🧠 Sənədli|Viju explore|1": {
   "fails": 0,
-  "last_ok": "2026-11-24 20:12 UTC"
+  "last_ok": "2026-11-25 07:09 UTC"
  },
  "🧠 Sənədli|Viasat History|1": {
   "fails": 0,
-  "last_ok": "2026-11-24 20:12 UTC"
+  "last_ok": "2026-11-25 07:09 UTC"
  },
  "🧠 Sənədli|Discovery Channel|1": {
   "fails": 0,
@@ -403,10 +409,10 @@
  },
  "🧠 Sənədli|National Geographic|1": {
   "fails": 0,
-  "last_ok": "2026-11-24 20:12 UTC"
+  "last_ok": "2026-11-25 07:09 UTC"
  },
  "🧠 Sənədli|TLC|1": {
   "fails": 0,
-  "last_ok": "2026-11-24 20:12 UTC"
+  "last_ok": "2026-11-25 07:09 UTC"
  }
 }
