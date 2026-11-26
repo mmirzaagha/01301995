@@ -1,6 +1,6 @@
 # Playlist statusu
 
-Son yoxlama: **2026-11-26 06:58 UTC**
+Son yoxlama: **2026-11-26 20:57 UTC**
 
 - Cəmi: **104**  
 - İşləyir: **53**  
@@ -12,4 +12,4 @@ Son yoxlama: **2026-11-26 06:58 UTC**
 
 ## Gözləmədə (növbəti yoxlamada yenə işləməsə əvəz olunacaq)
 
-- ТВ Спорт HD — HTTP 503
+- Fox Life — HTTP 403
