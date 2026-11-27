@@ -1,10 +1,10 @@
 # Playlist statusu
 
-Son yoxlama: **2026-11-27 06:54 UTC**
+Son yoxlama: **2026-11-27 20:43 UTC**
 
-- Cəmi: **104**  
-- İşləyir: **52**  
-- Gözləmədə (ilk uğursuzluq): **1**  
+- Cəmi: **103**  
+- İşləyir: **51**  
+- Gözləmədə (ilk uğursuzluq): **2**  
 - Bu dəfə əvəz olundu: **0**  
 - Əvəzi tapılmadı: **0**  
 - Yoxlanmadı (AZ/TR linki, yoxlayıcı ölkəsi: US): **50**
@@ -12,4 +12,5 @@ Son yoxlama: **2026-11-27 06:54 UTC**
 
 ## Gözləmədə (növbəti yoxlamada yenə işləməsə əvəz olunacaq)
 
-- BRIDGE Rock — ConnectTimeout
+- Fanatik Max Korku — HTTP 404
+- ТВ Спорт HD — HTTP 503
