@@ -153,7 +153,7 @@ https://tv-trtdiyanetcocuk.medya.trt.com.tr/master_720.m3u8
 https://catcast.ismailturret.workers.dev/fanatikkidscaillou.m3u8
 
 # 🧠 SƏNƏDLİ
-#EXTINF:-1 tvg-id="Ed Stafford" group-title="🧠 Sənədli", DMAX TR
+#EXTINF:-1 tvg-id="DMAX TR" group-title="🧠 Sənədli", DMAX TR
 http://flussonic.izone.az:80/ntvsport/index.m3u8
 #EXTINF:-1 tvg-id="Ed Stafford" group-title="🧠 Sənədli",Ed Stafford
 https://catcast.ismailturret.workers.dev/fanatikprimeEdStafford.m3u8
