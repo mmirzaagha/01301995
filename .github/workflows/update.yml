@@ -34,7 +34,7 @@ jobs:
       - run: pip install -r requirements.txt
 
       - name: Yoxla və əvəz et
-        run: python scripts/checker.py
+        run: python scripts/checker.py --playlist 0130.m3u
 
       - name: Dəyişiklik varsa commit et
         run: |
