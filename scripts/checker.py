@@ -30,19 +30,22 @@ ROOT = Path(__file__).resolve().parent.parent
 UA = "Mozilla/5.0 (Linux; Android 11; TV) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120 Safari/537.36"
 
 DEFAULT_CONFIG = {
-    "timeout": 8,            # saniyə, hər sorğu üçün
-    "workers": 40,           # paralel yoxlama sayı
-    "fail_threshold": 2,     # neçə ardıcıl uğursuz işləmədən sonra əvəz olunsun
-    "match_threshold": 0.9,  # ad oxşarlığı (0-1)
+    # DİQQƏT: real ayarlar config.json-dadır. Bu, config.json-da yazılmayan açarlar üçün ehtiyat dəyərlərdir.
+    "timeout": 8,            # hər sorğu üçün saniyə. Çox: yavaş kanal ölü sayılmaz, amma yoxlama uzanır
+    "workers": 40,           # paralel yoxlama sayı. Çox: sürətli, amma bloklanma riski
+    "fail_threshold": 2,     # ardıcıl neçə uğursuzluqdan sonra ölü sayılsın (1 riskli, 2 təhlükəsiz)
+    "match_threshold": 0.9,  # ad oxşarlığı (0-1). Çox: səhv əvəz az, tapılan əvəz az
     "max_candidates": 8,     # bir kanal üçün ən çox neçə namizəd yoxlansın
     "protected": [],         # adında bu sözlər olan kanallara toxunulmur
-    "aliases": {},           # {"Xezer TV": ["Khazar TV"]}
+    "aliases": {},           # {"Xezer TV": ["Khazar TV"]} əvəz axtarışı üçün əlavə adlar
     # --- coğrafi məhdudiyyət ---
-    "geo_hosts": [],         # host-da bu parça olan linklər AZ/TR-dən kənarda yoxlanmır
+    "geo_hosts": [],         # host-da bu parça olan linklər AZ/TR-dən kənarda yoxlanmır və dəyişdirilmir
     "trusted_countries": ["AZ", "TR"],  # yoxlayıcı bu ölkələrdən işləyirsə geo linklər də yoxlanır
-    "geo_proxy": "",         # məs. "socks5h://user:pass@host:port" (AZ/TR proxy), yalnız geo linklər üçün
-    "remove_unfixed": True,  # əvəzi tapılmayan ölü kanalı playlist-dən sil
-    "max_dead_ratio": 0.6,   # yoxlananların bu qədərindən çoxu ölü çıxsa, şəbəkə xətası sayılır, heç nə yazılmır
+    "geo_proxy": "",         # məs. "socks5h://user:pass@host:port" (AZ/TR proxy). Boşdursa proxy işlənmir
+    "auto_lower_quality": True,  # True: yalnız 1080p+ kanal yüngül variantla əvəz olunur; False: keyfiyyətə toxunulmur
+    "max_height": 720,       # istənilən maksimum hündürlük (piksel)
+    "remove_unfixed": True,  # True: əvəzi tapılmayan ölü kanal silinir; False: playlist-də qalır
+    "max_dead_ratio": 0.6,   # yoxlananların bu qədərindən çoxu ölü çıxsa heç nə dəyişdirilmir (şəbəkə xətası qoruması)
 }
 
 # Bu hostlar/domenlər yalnız AZ/TR IP-sindən etibarlı yoxlanır (config.json-dakı geo_hosts bunlara əlavə olunur)
@@ -209,6 +212,49 @@ def check_with_retry(url: str, timeout: int, proxies=None):
         return ok, why
     time.sleep(1.5)
     return check_stream(url, None, timeout, 0, proxies)
+
+
+# --------------------------------------------------------------------------- #
+# Keyfiyyət (çözünürlük) təhlili
+# --------------------------------------------------------------------------- #
+def height_hint(text: str):
+    """Ad və ya linkdəki '1080p' / '720p' / '4k' işarəsindən hündürlük (yoxdursa None)."""
+    hs = [int(h) for h in re.findall(r"(?<!\d)(\d{3,4})p(?![a-z0-9])", text.lower())]
+    if re.search(r"(?<![a-z0-9])(4k|uhd)(?![a-z0-9])", text.lower()):
+        hs.append(2160)
+    return max(hs) if hs else None
+
+
+def stream_info(url: str, timeout: int, proxies=None, name: str = ""):
+    """{'variants': n, 'min_h': ..., 'max_h': ...}. Master HLS-də variantların RESOLUTION-u oxunur."""
+    base, kodi = split_kodi_headers(url)
+    hint = height_hint(base + " " + name)
+    try:
+        st, _, data, _ = fetch(base, kodi, timeout, proxies=proxies)
+    except requests.RequestException:
+        return {"variants": 1, "min_h": hint, "max_h": hint}
+    txt = data.decode("utf-8", "replace")
+    if st in (200, 206) and "#EXT-X-STREAM-INF" in txt:
+        hs = [int(h) for h in re.findall(r"RESOLUTION=\d+x(\d+)", txt)]
+        n = txt.count("#EXT-X-STREAM-INF")
+        if hs:
+            return {"variants": n, "min_h": min(hs), "max_h": max(hs)}
+        return {"variants": n, "min_h": None, "max_h": hint}
+    return {"variants": 1, "min_h": hint, "max_h": hint}
+
+
+def is_heavy(info: dict, max_h: int) -> bool:
+    """Seçim imkanı olmayan və ya bütün variantları max_h-dan yüksək olan axın."""
+    if info["variants"] <= 1:
+        return info["max_h"] is not None and info["max_h"] > max_h
+    return info["min_h"] is not None and info["min_h"] > max_h
+
+
+def is_light(info: dict, max_h: int) -> bool:
+    """Sübut olunmuş yüngül: aşağı variantı var, ya da tək axın və hündürlüyü max_h-dan çox deyil."""
+    if info["variants"] > 1:
+        return info["min_h"] is not None and info["min_h"] <= max_h
+    return info["max_h"] is not None and info["max_h"] <= max_h
 
 
 # --------------------------------------------------------------------------- #
@@ -430,10 +476,17 @@ def main() -> int:
     protected = [p.lower() for p in cfg["protected"]]
     replaced, unfixed = [], []
 
+    _bk = {}
+
+    def get_backups():
+        if "v" not in _bk:
+            print("Ehtiyat siyahılar yüklənir...")
+            _bk["v"] = load_backup_entries(root, timeout)
+        return _bk["v"]
+
     # 2) ölüləri əvəz et
     if dead and not args.check_only:
-        print("Ehtiyat siyahılar yüklənir...")
-        backups = load_backup_entries(root, timeout)
+        backups = get_backups()
         dead_urls = {e.url for e, _ in dead}
         # playlist-in öz sağlam kanalları da namizəd ola bilər
         # yoxlana bilməyən (geo) namizədlər seçilmir: işlədiyi sübut olunmayan linki yazmaq olmaz
@@ -463,6 +516,39 @@ def main() -> int:
     else:
         unfixed = list(dead)
 
+    # 2b) ağır (yalnız 1080p+) kanalları yüngül variantla əvəz et
+    downgraded, heavy_left = [], []
+    if cfg.get("auto_lower_quality") and not args.check_only and alive:
+        max_h = int(cfg["max_height"])
+        replaced_urls = {e.url for e, _, _ in replaced}
+        with ThreadPoolExecutor(max_workers=int(cfg["workers"])) as ex:
+            infos = list(ex.map(lambda e: stream_info(e.url, timeout, px(e.url), e.name), alive))
+        heavy = [(e, i) for e, i in zip(alive, infos) if is_heavy(i, max_h)]
+        print(f"Ağır (>{max_h}p, seçimsiz) kanal: {len(heavy)}")
+        if heavy:
+            bpool = build_pool([c for c in get_backups() if can_verify_geo or not is_geo(c.url, geo_patterns)] + alive)
+            with ThreadPoolExecutor(max_workers=int(cfg["workers"])) as ex:
+                for e, info in heavy:
+                    if any(p in e.name.lower() for p in protected):
+                        continue
+                    cands = [(sc, c) for sc, c in find_candidates(
+                        e.name, cfg["aliases"].get(e.name, []), bpool, float(cfg["match_threshold"]))
+                        if c.url != e.url and c.url not in replaced_urls][: int(cfg["max_candidates"])]
+                    good = []
+                    for (sc, c), ok_why, ci in zip(
+                            cands,
+                            ex.map(lambda t: check_with_retry(t[1].url, timeout, px(t[1].url)), cands),
+                            ex.map(lambda t: stream_info(t[1].url, timeout, px(t[1].url), t[1].name), cands)):
+                        if ok_why[0] and is_light(ci, max_h):
+                            good.append((0 if ci["variants"] > 1 else 1, -sc, c, ci))
+                    if not good:
+                        heavy_left.append((e, info))
+                        continue
+                    good.sort(key=lambda g: (g[0], g[1]))
+                    _, nsc, c, ci = good[0]
+                    downgraded.append((e, c, -nsc, info, ci))
+                    print(f"  YÜNGÜL: {e.name} ({info['max_h']}p)  <-  {c.name} [{c.source}]")
+
     # silinəcəklər: əvəzi tapılmayan ölülər (qorunanlar və --check-only istisna)
     removed = []
     if cfg.get("remove_unfixed") and not args.check_only:
@@ -472,8 +558,9 @@ def main() -> int:
             new_state.pop(e.key, None)
 
     # 3) yaz
-    if (replaced or removed) and not args.dry_run:
+    if (replaced or removed or downgraded) and not args.dry_run:
         ops = [(e.ext_idx, e.url_idx, list(c.extras) + [c.url]) for e, c, _ in replaced]
+        ops += [(e.ext_idx, e.url_idx, list(c.extras) + [c.url]) for e, c, *_ in downgraded]
         ops += [(e.ext_idx, e.url_idx, None) for e, _ in removed]
         for ext_idx, url_idx, new in sorted(ops, key=lambda x: -x[0]):
             if new is None:
@@ -486,9 +573,11 @@ def main() -> int:
         state_path.write_text(json.dumps(new_state, ensure_ascii=False, indent=1), encoding="utf-8")
         rep = root / "reports"
         rep.mkdir(exist_ok=True)
-        write_report(rep / "status.md", len(entries), alive, pending, replaced, unfixed, skipped, country)
-        if replaced or removed:
+        write_report(rep / "status.md", len(entries), alive, pending, replaced, unfixed, skipped, country, downgraded, heavy_left)
+        if replaced or removed or downgraded:
             with (rep / "replacements.log").open("a", encoding="utf-8") as f:
+                for e, c, sc, info, ci in downgraded:
+                    f.write(f"{now_iso()} | {e.group} | {e.name} | YÜNGÜL {info['max_h']}p -> {ci['min_h'] or ci['max_h']}p | {e.url} -> {c.url} ({c.source})\n")
                 for e, why in removed:
                     f.write(f"{now_iso()} | {e.group} | {e.name} | SİLİNDİ ({why}) | {e.url}\n")
                 for e, c, s in replaced:
@@ -498,7 +587,7 @@ def main() -> int:
     return 0
 
 
-def write_report(path: Path, total, alive, pending, replaced, unfixed, skipped=(), country=""):
+def write_report(path: Path, total, alive, pending, replaced, unfixed, skipped=(), country="", downgraded=(), heavy_left=()):
     md = [f"# Playlist statusu\n", f"Son yoxlama: **{now_iso()}**\n",
           f"- Cəmi: **{total}**  \n- İşləyir: **{len(alive)}**  \n- Gözləmədə (ilk uğursuzluq): **{len(pending)}**  \n"
           f"- Bu dəfə əvəz olundu: **{len(replaced)}**  \n- Əvəzi tapılmadı: **{len(unfixed)}**  \n"
@@ -509,6 +598,13 @@ def write_report(path: Path, total, alive, pending, replaced, unfixed, skipped=(
     if unfixed:
         md += ["\n## Əvəzi tapılmayanlar (ölü)\n", "| Qrup | Kanal | Səbəb |", "|---|---|---|"]
         md += [f"| {e.group} | {e.name} | {why} |" for e, why in unfixed]
+    if downgraded:
+        md += ["\n## Yüngül variantla əvəz olunanlar (keyfiyyət)\n", "| Kanal | Əvvəl | İndi | Mənbə |", "|---|---|---|---|"]
+        md += [f"| {e.name} | {i['max_h']}p | {ci['min_h'] or ci['max_h']}p ({'adaptive' if ci['variants'] > 1 else 'tək'}) | {c.source} |"
+               for e, c, _, i, ci in downgraded]
+    if heavy_left:
+        md += ["\n## Ağır, yüngül alternativi tapılmadı (zəif internetdə tutula bilər)\n"]
+        md += [f"- {e.name} — {i['max_h']}p" + (f" (variantlar: {i['variants']})" if i['variants'] > 1 else "") for e, i in heavy_left]
     if pending:
         md += ["\n## Gözləmədə (növbəti yoxlamada yenə işləməsə əvəz olunacaq)\n"]
         md += [f"- {e.name} — {why}" for e, why in pending]
