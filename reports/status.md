@@ -1,16 +1,11 @@
 # Playlist statusu
 
-Son yoxlama: **2026-11-27 20:43 UTC**
+Son yoxlama: **2026-11-28 06:27 UTC**
 
 - Cəmi: **103**  
-- İşləyir: **51**  
-- Gözləmədə (ilk uğursuzluq): **2**  
+- İşləyir: **53**  
+- Gözləmədə (ilk uğursuzluq): **0**  
 - Bu dəfə əvəz olundu: **0**  
 - Əvəzi tapılmadı: **0**  
 - Yoxlanmadı (AZ/TR linki, yoxlayıcı ölkəsi: US): **50**
 
-
-## Gözləmədə (növbəti yoxlamada yenə işləməsə əvəz olunacaq)
-
-- Fanatik Max Korku — HTTP 404
-- ТВ Спорт HD — HTTP 503
