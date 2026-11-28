@@ -6,7 +6,7 @@
 
 # ⭐ ƏSAS
 #EXTINF:-1 tvg-logo="https://i.ibb.co/VC7Q18V/azflag.png" group-title="⭐ Əsas",AZ TV
-http://109.205.166.68/server124/aztv/index3.m3u8?e=1676581573&st=AzGSZjk1DpXY1SLc1m4OvA
+http://flussonic.izone.az:80/aztv/index.m3u8
 #EXTINF:-1 tvg-id="IctimaiTV.az" tvg-logo="https://i.imgur.com/HzY4VMo.png" group-title="⭐ Əsas",İctimai TV
 https://live.itv.az/itv.m3u8
 #EXTINF:-1 tvg-logo="https://i.ibb.co/VC7Q18V/azflag.png" group-title="⭐ Əsas",BAKU TV
@@ -41,20 +41,26 @@ https://a8.radyotelekom.com.tr:3276/stream/play.m3u8
 http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/S8VNGCFUZYYPDT/2120/index.m3u8
 
 # 🎵 MUSİQİ
+#EXTINF:-1 group-title="🎵 Musiqi", MuzTv Azerbaycan
+http://flussonic.izone.az:80/muztvaz/index.m3u8
+#EXTINF:-1 group-title="🎵 Musiqi", TMB TV
+http://flussonic.izone.az:80/tmb/index.m3u8
 #EXTINF:-1 group-title="🎵 Musiqi",KN Music TV
 https://cdn4.yayin.com.tr/kntv/tracks-v1a1/mono.m3u8
 
 
 
 
+
 # ⚽ İDMAN
 #EXTINF:-1 group-title="⚽ İdman",CBC Sport
-http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/U3PFTYPG76MSLWDDT2ZW8A6H/2193/index.m3u8
-
+http://erlyvideo.izone.az:80/cbcsporthd/index.m3u8
+#EXTINF:-1 group-title="⚽ İdman",İdman Azərbaycan
+http://flussonic.izone.az:80/idmanaz/index.m3u8
 
 # 👶 UŞAQ
 #EXTINF:-1 tvg-id="ext" tvg-name="TRT COCUK DIYANET" group-title="👶 Uşaq",Günəş ARB
-http://238071de.rostelekom.xyz/iptv/QNKP368YM8HMHKUU6G9EDBSL/2189/index.m3u8
+http://flussonic.izone.az:80/arbgunesh/index.m3u8
 
 # 🧠 SƏNƏDLİ
 #EXTINF:-1 group-title="🧠 Sənədli",Mədəniyyət TV
