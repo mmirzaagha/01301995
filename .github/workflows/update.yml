@@ -2,16 +2,19 @@ name: Playlist yoxla və yenilə
 
 on:
   schedule:
-        - cron: "0 3,9,15 * * *"   # Bakı: 07:00, 13:00, 19:00
-  workflow_dispatch:          # Actions səhifəsindən əl ilə işə sal
-  push:
+    # Nə vaxt avtomatik işləsin. Vaxt UTC-dir, Bakı = UTC+4.
+    # "0 3,9,15 * * *" = Bakı 07:00, 13:00, 19:00 (gündə 3 dəfə).
+    # Tez-tez etsən: ölü kanal tez təmizlənir, amma GitHub limiti tez bitir. Az etsən: ölü kanal uzun qalır.
+    - cron: "0 3,9,15 * * *"
+  workflow_dispatch:          # Qalsa: Actions tabında "Run workflow" düyməsi ilə əl ilə işə sala bilərsən. Silsən: düymə yox olur.
+  push:                       # Qalsa: aşağıdakı fayllar dəyişəndə dərhal işə düşür. Silsən: yalnız cədvəllə (və ya əl ilə) işləyir.
     paths:
       - "sources.txt"
       - "config.json"
       - "backup/**"
 
 permissions:
-  contents: write
+  contents: write   # Bot playlist-i yeniləyə bilsin deyə lazımdır. Silsən: bot commit edə bilməz, xəta verir.
 
 concurrency:
   group: playlist-update
@@ -20,7 +23,7 @@ concurrency:
 jobs:
   update:
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    timeout-minutes: 30   # 30 dəqiqədən çox çəksə dayandırılır. Azaltsan: böyük siyahıda yarımçıq kəsilə bilər.
     steps:
       - uses: actions/checkout@v4
 
