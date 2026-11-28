@@ -1,10 +1,18 @@
 {
+  "_oxu_məni": "Bu faylda // və # komment yazmaq olmaz (fayl pozulur). '_izah_...' ilə başlayan sətirlər yalnız izahdır, skript onları oxumur. Dəyəri dəyişəndə dırnaqları, vergülləri və true/false-ı kiçik hərflə saxla.",
+  "_izah_timeout": "Hər sorğu üçün gözləmə (saniyə). Artırsan: yavaş serverlər 'ölü' sayılmaz, amma yoxlama uzanır. Azaltsan: sürətli olur, yavaş kanallar səhvən ölü çıxa bilər.",
   "timeout": 8,
+  "_izah_workers": "Eyni anda neçə kanal yoxlansın. Artırsan: tez bitir, amma serverlər/GitHub bloklaya bilər. Azaltsan: yavaş, amma sakit.",
   "workers": 40,
+  "_izah_fail_threshold": "Neçə ardıcıl uğursuz yoxlamadan sonra kanal ölü sayılsın. 1: dərhal əvəz/sil (bir dəfəlik xətada yaxşı linki itirə bilərsən). 2: təhlükəsiz (tövsiyə). 3+: çox səbirli, ölü kanal uzun qalır.",
   "fail_threshold": 2,
+  "_izah_match_threshold": "Ad oxşarlığı (0-1). Artırsan (0.95): yalnız demək olar eyni adlı kanal əvəz kimi seçilir, səhv kanal riski azalır, amma əvəz tapılması çətinləşir. Azaltsan (0.8): daha çox əvəz tapılır, amma səhv kanal düşə bilər.",
   "match_threshold": 0.9,
+  "_izah_max_candidates": "Bir kanal üçün ən çox neçə əvəz namizədi yoxlansın. Artırsan: tapma şansı artır, yoxlama uzanır. Azaltsan: sürətli, amma az seçim.",
   "max_candidates": 8,
+  "_izah_protected": "Adında bu sözlər olan kanallara TOXUNULMUR (nə əvəz, nə silmə, nə keyfiyyət dəyişmə). Məs: [\"ATV\", \"Xezer\"]. Boşdursa hamısı yoxlanır.",
   "protected": [],
+  "_izah_aliases": "Fərqli adla yazılan kanallar üçün alternativ adlar. Əlavə etsən: əvəz axtarışı həmin adları da yoxlayır. Silsən: yalnız əsas ada görə axtarılır.",
   "aliases": {
     "Xezer TV": [
       "Khazar TV"
@@ -14,6 +22,7 @@
       "ITV"
     ]
   },
+  "_izah_geo_hosts": "Linkdə bu söz olan kanallar yalnız AZ/TR IP-sindən yoxlanır. GitHub (ABŞ) bunları YOXLAMIR və TOXUNMUR. Siyahıya əlavə etsən: o kanal qorunur (səhvən silinmir). Silsən: GitHub onu yoxlayıb 'ölü' sayacaq və silə/əvəz edə bilər.",
   "geo_hosts": [
     "baku.tv",
     "showplus.tv",
@@ -23,5 +32,13 @@
     "89.187.191.41",
     "rostelekom.xyz",
     "andro.3749206.xyz"
-  ]
+  ],
+  "_izah_remove_unfixed": "true: əvəzi tapılmayan ölü kanal playlist-dən SİLİNİR (siyahı təmiz qalır, amma kanal geri qayıtmaz, ölü link yenidən işləsə də). false: ölü kanal playlist-də QALIR (siz özünüz silirsiniz), yalnız hesabatda yazılır.",
+  "remove_unfixed": true,
+  "_izah_auto_lower_quality": "true: yalnız 1080p+ olan kanal ehtiyat siyahıdan 720p və ya çox keyfiyyətli variantla avtomatik əvəz olunur (az tutulur, amma şəkil keyfiyyəti düşə bilər). false: heç vaxt keyfiyyətə görə dəyişdirilmir.",
+  "auto_lower_quality": true,
+  "_izah_max_height": "İstənilən maksimum hündürlük (piksel). 720: 1080p kanallar yüngülləşdirilir. 1080: demək olar heç nə dəyişmir (yalnız 4K). 480: daha da yüngül, amma görüntü bulanıq.",
+  "max_height": 720,
+  "_izah_max_dead_ratio": "Yoxlananların bu qədərindən çoxu ölü çıxsa (0.6 = 60%), skript bunu şəbəkə xətası sayıb HEÇ NƏ dəyişmir. Azaltsan: daha ehtiyatlı (tez dayanır). Artırsan: daha az qoruma, internet problemində playlist pozula bilər.",
+  "max_dead_ratio": 0.6
 }
