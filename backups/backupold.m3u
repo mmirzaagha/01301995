@@ -1,0 +1,301 @@
+#EXTM3U
+
+# ==================================================
+# 🇦🇿 AZƏRBAYCAN
+# ==================================================
+
+# ⭐ ƏSAS
+#EXTINF:-1 tvg-logo="https://i.ibb.co/VC7Q18V/azflag.png" group-title="⭐ Əsas",AZ TV
+http://flussonic.izone.az:80/aztv/index.m3u8
+#EXTINF:-1 tvg-id="IctimaiTV.az" tvg-logo="https://i.imgur.com/HzY4VMo.png" group-title="⭐ Əsas",İctimai TV
+https://live.itv.az/itv.m3u8
+#EXTINF:-1 tvg-logo="https://i.ibb.co/VC7Q18V/azflag.png" group-title="⭐ Əsas",BAKU TV
+https://rtmp.baku.tv/hls/bakutv_1080p.m3u8
+#EXTINF:-1 tvg-name="AZADTV.az" group-title="⭐ Əsas",ATV AZ
+https://lives.atv.az:5443/ATV_TV_STREAM/streams/atvcanli.m3u8
+#EXTINF:-1 group-title="⭐ Əsas",Xezer TV
+http://erlyvideo.izone.az:80/xezertv/mono.m3u8
+#EXTINF:-1 tvg-name="ELTV.az" group-title="⭐ Əsas",EL TV
+http://85.132.53.162:1935/live/eltv/playlist.m3u8
+#EXTINF:-1 group-title="⭐ Əsas",ARB
+http://erlyvideo.izone.az:80/arb/mono.m3u8
+#EXTINF:-1 group-title="⭐ Əsas",ARB 24 HD AZ
+http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/U3PFTYPG76MSLWDDT2ZW8A6H/2188/index.m3u8
+#EXTINF:-1 group-title="⭐ Əsas",Space TV AZ
+http://erlyvideo.izone.az:80/spacetv/mono.m3u8
+#EXTINF:-1 group-title="⭐ Əsas",KATV1
+http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/U3PFTYPG76MSLWDDT2ZW8A6H/16042/index.m3u8
+#EXTINF:-1 group-title="⭐ Əsas",Kəpəz TV
+http://85.132.78.122:8050/hls/stream/index.m3u8
+#EXTINF:-1 group-title="⭐ Əsas",Show Plus AZE
+https://rtmp.showplus.tv/hls/myshow.m3u8
+#EXTINF:-1 group-title="⭐ Əsas",Könül TV
+http://cdn-konultvazerbaijan.yayin.com.tr/konultvazerbaijan/konultvazerbaijan/playlist.m3u8
+
+
+
+# 🎬 FİLM
+#EXTINF:-1 group-title="🎬 Film",Diginet Cinema Az
+https://a8.radyotelekom.com.tr:3276/stream/play.m3u8
+#EXTINF:-1 group-title="🎬 Film",ATV Cinema AZ
+http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/S8VNGCFUZYYPDT/2120/index.m3u8
+
+# 🎵 MUSİQİ
+#EXTINF:-1 group-title="🎵 Musiqi", MuzTv Azerbaycan
+http://flussonic.izone.az:80/muztvaz/index.m3u8
+#EXTINF:-1 group-title="🎵 Musiqi", TMB TV
+http://flussonic.izone.az:80/tmb/index.m3u8
+#EXTINF:-1 group-title="🎵 Musiqi",KN Music TV
+https://cdn4.yayin.com.tr/kntv/tracks-v1a1/mono.m3u8
+
+
+
+
+
+# ⚽ İDMAN
+#EXTINF:-1 group-title="⚽ İdman",CBC Sport
+http://erlyvideo.izone.az:80/cbcsporthd/index.m3u8
+#EXTINF:-1 group-title="⚽ İdman",İdman Azərbaycan
+http://flussonic.izone.az:80/idmanaz/index.m3u8
+
+# 👶 UŞAQ
+#EXTINF:-1 tvg-id="ext" tvg-name="TRT COCUK DIYANET" group-title="👶 Uşaq",Günəş ARB
+http://flussonic.izone.az:80/arbgunesh/index.m3u8
+
+# 🧠 SƏNƏDLİ
+#EXTINF:-1 group-title="🧠 Sənədli",Mədəniyyət TV
+http://erlyvideo.izone.az:80/medeniyyet/mono.m3u8
+
+
+# ==================================================
+# 🇹🇷 TÜRKİYƏ
+# ==================================================
+
+# ⭐ ƏSAS
+#EXTINF:-1 tvg-id="TRT 1.tr" group-title="⭐ Əsas",TRT 1 HD
+http://89.187.191.41/TRT-1-HD-TR/video.m3u8
+#EXTINF:-1 tvg-id="ATV.tr@SD" group-title="⭐ Əsas",ATV (360p)
+http://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/atv/atv_360p.m3u8
+#EXTINF:-1 tvg-id="KanalD.tr" group-title="⭐ Əsas",Kanal D HD
+http://live.duhnet.tv/S2/HLS_LIVE/kanalddainp/playlist.m3u8
+#EXTINF:-1 tvg-id="KanalD.tr" group-title="⭐ Əsas",NOW TV (720p)
+https://uycyyuuzyh.turknet.ercdn.net/nphindgytw/nowtv/nowtv.m3u8
+#EXTINF:-1 tvg-name="SHOW TV" group-title="⭐ Əsas",SHOW TV HD
+https://ciner.daioncdn.net/showtv/showtv.m3u8?ce=3&app=4bc856ef-4c68-4a94-bc87-37dfaaa66558
+#EXTINF:-1 tvg-name="STAR TV" group-title="⭐ Əsas",STAR TV HD
+https://dogus.daioncdn.net/startv/startv.m3u8?ce=3&app=1740db13-3ee9-4858-8d2c-b1a9cfaa3718
+#EXTINF:-1 tvg-name="TV 4" group-title="⭐ Əsas",Tv8 Hd
+http://flussonic.izone.az:80/tv8/mono.m3u8
+#EXTINF:-1 tvg-name="TV 4" group-title="⭐ Əsas",Tv8'5 Hd
+https://rkhubpaomb.turknet.ercdn.net/fwjkgpasof/tv8bucuk/tv8bucuk_1080p.m3u8
+#EXTINF:-1 tvg-name="TV 4" group-title="⭐ Əsas",Beyaz Tv
+https://beyaztv-live.daioncdn.net/beyaztv/beyaztv.m3u8
+#EXTINF:-1 tvg-id="ext" tvg-name="KANAL 7" group-title="⭐ Əsas",KANAL 7
+https://kanal7-live.daioncdn.net/kanal7/kanal7_1080p.m3u8
+#EXTINF:-1 tvg-name="KANAL 7 AVRUPA" group-title="⭐ Əsas",KANAL 7 AVRUPA
+https://livetv.radyotvonline.net/kanal7live/kanal7avr/chunklist.m3u8
+#EXTINF:-1 tvg-name="TV 4" group-title="⭐ Əsas",A2 Hd
+http://89.187.191.41/A2-HD-TR/video.m3u8
+#EXTINF:-1 tvg-name="TV 4" group-title="⭐ Əsas",TV 4
+https://turkmedya-live.ercdn.net/tv4/tv4_1080p.m3u8
+#EXTINF:-1 tvg-name="EURO D" group-title="⭐ Əsas",EURO D
+https://live.duhnet.tv/S2/HLS_LIVE/eurodnp/track_4_1000/playlist.m3u8
+
+
+# 🎬 FİLM
+#EXTINF:-1 tvg-logo="https://e7.pngegg.com/pngimages/879/420/png-clipart-film-video-production-television-graphy-cine-miscellaneous-label-thumbnail.png" group-title="🎬 Film",SiNEMA 1
+https://host.onlineradyotv.net:8081/sdmtv/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="🎬 Film",Fim Z
+https://raw.githubusercontent.com/dedmasteriptv/moykanal/refs/heads/main/PlayerCinemaAction.m3u8
+#EXTINF:-1 group-title="🎬 Film",Fanatik Max Korku
+https://v2.catcast.tv/content/50717/seg-25826740-v1-a1/index.m3u8
+
+
+# 🎵 MUSİQİ
+#EXTINF:-1 group-title="🎵 Musiqi",TURK MUZIK
+https://tv-trtmuzik.medya.trt.com.tr/master.m3u8
+#EXTINF:-1 group-title="🎵 Musiqi",Kral Pop
+http://dygvideo.dygdigital.com/live/hls/kralpop
+#EXTINF:-1 group-title="🎵 Musiqi",Power Türk
+https://livetv.powerapp.com.tr/powerturkTV/powerturkhd.smil/playlists.m3u8
+#EXTINF:-1 group-title="🎵 Musiqi",Power Türk Slow
+https://listen.powerapp.com.tr/pturkslow/slow.smil/playlist.m3u8
+#EXTINF:-1 group-title="🎵 Musiqi",Power Dance
+https://listen.powerapp.com.tr/dance/dance.smil/playlist.m3u8
+#EXTINF:-1 group-title="🎵 Musiqi",NR1
+https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/u_stream_5c9e17cd6360b_1/playlist.m3u8
+
+# ⚽ İDMAN
+#EXTINF:-1 group-title="⚽ İdman", HT SPOR
+https://rmtftbjlne.turknet.ercdn.net/bpeytmnqyp/ht-spor/ht-spor.m3u8
+#EXTINF:-1 group-title="⚽ İdman", A SPOR
+https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/aspor/aspor.m3u8
+#EXTINF:-1 group-title="⚽ İdman", FB TV
+http://1hskrdto.rocketcdn.com/fenerbahcetv.smil/playlist.m3u8
+#EXTINF:-1 group-title="⚽ İdman", Tabii Spor
+https://andro.evrenesoglu101.click/checklist/androstreamlivetb.m3u8
+#EXTINF:-1 group-title="⚽ İdman", Tabii Spor
+https://andro.evrenesoglu101.click/checklist/androstreamlivetb.m3u8
+#EXTINF:-1 group-title="⚽ İdman", Smart Spor 1
+https://andro.evrenesoglu101.click/checklist/androstreamlivesm1.m3u8
+
+
+# 👶 UŞAQ
+#EXTINF:-1 tvg-logo="https://i.ibb.co/L8ftBdN/minikacocuk.png" group-title="👶 Uşaq",MİNİKA ÇOCUK
+https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/minikago_cocuk/minikago_cocuk_480p.m3u8
+#EXTINF:-1 tvg-logo="https://i.ibb.co/R2Zgy7F/minikago.png" group-title="👶 Uşaq",MİNİKA GO
+https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/minikago/minikago_480p.m3u8
+#EXTINF:-1 tvg-logo="https://i.ibb.co/YjkMYbF/trtcocuk21a.png" group-title="👶 Uşaq",TRT ÇOCUK
+https://tv-trtcocuk.medya.trt.com.tr/master.m3u8
+#EXTINF:-1 tvg-id="ext" tvg-name="TRT COCUK DIYANET" group-title="👶 Uşaq",TRT COCUK DIYANET
+https://tv-trtdiyanetcocuk.medya.trt.com.tr/master_720.m3u8
+#EXTINF:-1 tvg-id="ext" tvg-name="CAILLOU" group-title="👶 Uşaq",CAILLOU
+https://catcast.ismailturret.workers.dev/fanatikkidscaillou.m3u8
+
+# 🧠 SƏNƏDLİ
+#EXTINF:-1 tvg-id="DMAX TR" group-title="🧠 Sənədli", DMAX TR
+http://flussonic.izone.az:80/ntvsport/index.m3u8
+#EXTINF:-1 tvg-id="Ed Stafford" group-title="🧠 Sənədli",Ed Stafford
+https://catcast.ismailturret.workers.dev/fanatikprimeEdStafford.m3u8
+
+
+# ==================================================
+# 🇷🇺 RUSİYA
+# ==================================================
+
+# ⭐ ƏSAS
+#EXTINF:-1 tvg-id="ntv" group-title="⭐ Əsas",РЕН ТВ
+#EXTGRP:Россия
+http://185.46.16.239:8000/REN_TV
+#EXTINF:-1 tvg-id="ntv" tvg-logo="https://iptvx.one/picons/ntv.png" group-title="⭐ Əsas",НТВ HD
+http://cdn2.ntv.ru/ntv0_hd/playlist.m3u8
+#EXTINF:-1 tvg-id="ntv-style" tvg-logo="https://iptvx.one/picons/ntv-style.png" group-title="⭐ Əsas",НТВ Стиль
+http://cdn2.ntv.ru/th_style/playlist.m3u8
+#EXTINF:-1 tvg-id="ntv-serial" tvg-logo="https://iptvx.one/picons/ntv-serial.png" group-title="⭐ Əsas",НТВ Сериал
+http://cdn2.ntv.ru/th_serial/playlist.m3u8
+#EXTINF:-1 tvg-id="ntv-xit" tvg-logo="https://iptvx.one/picons/ntv-xit.png" group-title="⭐ Əsas",НТВ Хит
+http://cdn2.ntv.ru/th_hit/playlist.m3u8
+#EXTINF:-1 tvg-id="bolshaya-azia" tvg-logo="https://iptvx.one/picons/bolshaya-azia.png" group-title="⭐ Əsas",Большая Азия HD
+https://live-bigasia.cdnvideo.ru/bigasia/bigasia.smil/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-id="ТВ3" group-title="⭐ Əsas",ТВ3
+http://vipl.one/hls/28u6ktvdax/15.m3u8
+#EXTINF:-1 tvg-id="Домашний" group-title="⭐ Əsas",Домашний
+http://vipl.one/hls/28u6ktvdax/14.m3u8
+#EXTINF:-1 tvg-id="ТНТ4" group-title="⭐ Əsas",ТНТ4
+http://vipl.one/hls/28u6ktvdax/476.m3u8
+#EXTINF:-1 tvg-id="ТНТ" group-title="⭐ Əsas",ТНТ
+http://vipl.one/hls/28u6ktvdax/19.m3u8
+#EXTINF:-1 tvg-id="Пятница! HD" group-title="⭐ Əsas",Пятница! HD
+http://vipl.one/hls/28u6ktvdax/35.m3u8
+#EXTINF:-1 tvg-id="СТС HD" group-title="⭐ Əsas",СТС HD
+http://vipl.one/hls/28u6ktvdax/1061.m3u8
+
+# 🎬 FİLM
+#EXTINF:-1 group-title="🎬 Film",Мужское кино
+http://185.121.1.163:8083/MuzhskoeKino/index.m3u8
+#EXTINF:-1 group-title="🎬 Film",Мужское кино International
+https://fs.uplink.kz/muzhskoe_kino/mono.m3u8?token=onlinetv2
+#EXTINF:-1 group-title="🎬 Film",Киноxит
+https://flussonic.mkpnet.ru/tv-513b9c22f4277475/video.m3u8
+#EXTINF:-1 group-title="🎬 Film",Kinomiks
+https://stream8.cinerama.uz/1233/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="🎬 Film",КИНОПОКАЗ
+https://stream8.cinerama.uz/1057/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="🎬 Film",Кинопремьера
+http://185.121.1.163:8083/Kinopremyera/index.m3u8
+#EXTINF:-1 group-title="🎬 Film",Киносвидание
+https://stream8.cinerama.uz/1203/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="🎬 Film",viju+ Megahit
+http://erlyvideo.izone.az/VIPMegahitHD/index.m3u8
+#EXTINF:-1 group-title="🎬 Film",viju+ Premiere HD (1080p)
+https://flussonic.mkpnet.ru/tv-e107d21a90cb808f/video.m3u8
+#EXTINF:-1 group-title="🎬 Film",viju TV1000 Action
+https://flussonic.mkpnet.ru/tv-0991ea2ac6292de8/video.m3u8
+#EXTINF:-1 group-title="🎬 Film",Киноужас
+https://fs.uplink.kz/kinouzhas/mono.m3u8?token=onlinetv2
+#EXTINF:-1 group-title="🎬 Film",КИНОКОМЕДИЯ
+https://stream8.cinerama.uz/1232/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="🎬 Film",КИНОСЕРИЯ
+https://stream8.cinerama.uz/1235/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="🎬 Film",.black
+http://85.117.61.84/black/index.m3u8
+#EXTINF:-1 group-title="🎬 Film",Киносат
+http://185.121.1.163:8083/Kinoman/index.m3u8
+#EXTINF:-1 group-title="🎬 Film",КиноTv
+http://185.121.1.163:8083/KinoTV/index.m3u8
+#EXTINF:-1 group-title="🎬 Film",Cinema
+https://stream8.cinerama.uz/1227/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="🎬 Film",Viasat Epic Drama
+http://195.189.60.253/118/index.m3u8
+#EXTINF:-1 group-title="🎬 Film",Dom kino Premium HD (1080p)
+https://fs.uplink.kz/dom_kino_premium/mono.m3u8?token=onlinetv2
+#EXTINF:-1 group-title="🎬 Film",Мосфильм. Золотая коллекция
+http://185.76.10.53:8080/srv5/mosfilm/tracks-v1a1/mono.m3u8?cid=144&did=5366158&m=1&rid=24397&token=2022b6576a65c40ede42a7d4941b5471
+#EXTINF:-1 group-title="🎬 Film",Кино 1 International [Not 24/7]
+http://kino-1.catcast.tv/content/38617/index.m3u8
+#EXTINF:-1 tvg-id="Discovery" group-title="🎬 Film",Hollywood
+https://stream8.cinerama.uz/1443/tracks-v1a1/mono.m3u8
+
+
+
+# 🎵 MUSİQİ
+#EXTINF:-1 group-title="🎵 Musiqi",Muz TV 
+http://erlyvideo.izone.az:80/muztv/mono.m3u8
+#EXTINF:-1 group-title="🎵 Musiqi",BRIDGE Deluxe HD
+#EXTGRP:Музыка
+http://5.188.159.128:8070/Bridge_TV_Deluxe/index.m3u8
+#EXTINF:-1 group-title="🎵 Musiqi",BRIDGE Rock
+http://178.134.1.158:8081/BRIDGEROCK/index.m3u8
+
+
+
+# ⚽ İDMAN
+
+#EXTINF:-1 group-title="⚽ İdman",Футбол 1
+http://109.205.166.68/2712/match_futbol_1/index3.m3u8?st=jZDkhPwrilakQINreN0w2w&e=1652674806
+#EXTINF:-1 group-title="⚽ İdman",Футбол 2
+http://109.205.166.68/2712/match_futbol_2/index3.m3u8?st=jZDkhPwrilakQINreN0w2w&e=1652674806
+#EXTINF:-1 group-title="⚽ İdman",Футбол 3
+http://109.205.166.68/2712/match_futbol_3/index3.m3u8?st=jZDkhPwrilakQINreN0w2w&e=1652674806
+#EXTINF:-1 group-title="⚽ İdman",Viju+ Sport
+http://91.205.196.7:8000/play/a02y
+#EXTINF:-1 group-title="⚽ İdman",ТВ Спорт HD
+http://live-3.otcnet.ru/sportivny/tracks-v1a1/mono.ts.m3u8
+
+
+# 🧠 SƏNƏDLİ
+#EXTINF:-1 tvg-id="Зоопарк" group-title="🧠 Sənədli",Animal Planet HD
+http://vipl.one/hls/28u6ktvdax/295.m3u8
+#EXTINF:-1 tvg-id="Viju nature" group-title="🧠 Sənədli",Viju nature
+https://flussonic.mkpnet.ru/tv-7a85ea25208f5bf7/video.m3u8
+#EXTINF:-1 tvg-id="Viju explore" group-title="🧠 Sənədli",Viju explore
+https://flussonic.mkpnet.ru/tv-7c57a4c3f9a896ea/video.m3u8
+#EXTINF:-1 tvg-id="Viju explore" group-title="🧠 Sənədli",Viasat History
+https://stream8.cinerama.uz/1046/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-id="Viju explore" group-title="🧠 Sənədli",Discovery Channel
+http://mfe02.cliptv.az/dash/Discovery_Channel_HDqwer456y.ism/playlist.mpd
+#EXTINF:-1 tvg-id="Viju explore" group-title="🧠 Sənədli",National Geographic
+https://stream8.cinerama.uz/1041/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-id="TLC" group-title="🧠 Sənədli",TLC
+http://vipl.one/hls/28u6ktvdax/169.m3u8
+
+# ==================================================
+# QEYD
+# ==================================================
+# Ölkə başlıqları yalnız kommentdir.
+# Televizo qrupları group-title əsasında yaradır.
+#
+# Eyni group-title olan bütün ölkələrin kanalları
+# eyni qrupda birləşəcək:
+#
+# ⭐ Əsas
+# 🎭 Əyləncə
+# 🎬 Film
+# 🎵 Musiqi
+# ⚽ İdman
+# 👶 Uşaq
+# 🧠 Sənədli
+#
+# Fayl daxilində sıra:
+# 🇦🇿 Azərbaycan → 🇹🇷 Türkiyə → 🇷🇺 Rusiya
+# ==================================================
